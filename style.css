@@ -11,7 +11,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500vh;
+    max-width: 500px;
     overflow: hidden;
 }
 
@@ -67,4 +67,19 @@ button:active{
 .container {
   width: 100%;
   padding: 10px;
+}
+
+/* Default styles (for mobile, min-width 0px) */
+.column {
+  width: 100%; /* Stacks columns vertically on mobile */
+  margin-bottom: 1em;
+}
+
+/* Styles for screens 768px wide or larger (tablets and up) */
+@media screen and (min-width: 768px) {
+  .column {
+    width: 48%; /* Display side-by-side for larger screens */
+    display: inline-block;
+    margin-right: 2%;
+  }
 }
