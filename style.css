@@ -10,14 +10,14 @@ body{
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
-    border-radius: 15vh;
-    max-width: 500vh;
+    border-radius: 15px;
+    max-width: 500px;
     overflow: hidden;
 }
 
 #display{
     width: 100vh;
-    padding: 20vh;
+    padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
@@ -33,9 +33,9 @@ body{
 }
 
 button{
-    width: 100vh;
-    height: 100vh;
-    border-radius: 50vh;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
     border: none;
     background-color: black;
     color: white;
